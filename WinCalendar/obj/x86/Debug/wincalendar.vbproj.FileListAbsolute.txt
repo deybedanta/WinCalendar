@@ -1,0 +1,13 @@
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\bin\Debug\wincalendar.exe
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\bin\Debug\wincalendar.pdb
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\bin\Debug\wincalendar.xml
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.Form1.resources
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.Resources.resources
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.vbproj.GenerateResource.Cache
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.exe
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.xml
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.pdb
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\bin\Debug\wincalendar.exe.manifest
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\bin\Debug\wincalendar.application
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.exe.manifest
+C:\Users\bedan\AppData\Local\Temporary Projects\wincalendar\obj\x86\Debug\wincalendar.application

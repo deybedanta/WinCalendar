@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wincalendar.exe" version="1.0.0.2" publicKeyToken="c528316c3ad8606a" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wincalendar" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="wincalendar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wincalendar.exe" size="200192">
+      <assemblyIdentity name="wincalendar" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8yK4B0w3Ju7yJsiC1br7zX6jb8M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="wincalendar-icon.ico" size="176315">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OeA8sXNN17vvegJyl/mHWYNnUX4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BEDANTA-PC\bedan" issuerKeyHash="dc7759d9882b5f1410a0291dd5705e7416ffc88a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>AccVsEMDM+ZFm6gGIxH7YFcmI10=</DigestValue></Reference></SignedInfo><SignatureValue>bSSV/ivVCnGCDyZgDsfAnEhOsGlC7TKf+/5A9Jr6MwJhLWuoRYJ6Zh14a877lGowYIf7RcGdg6QM+PcK1Y1zkEONuoE0LXuNrGMHhSuGNm82/HwnkjTaBQ5tj9s8c/kJFa+61ppGOcpKPWTb2SL7Cb0HVZgTTP2v6PmQ6hoagEc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xmAsowk18tBcgX77F1W264/Q9ZLYy7GGZKBeIbxADe7uP597T3yVegytKi0BcldQsPlP0HouCOiYWHPpCcddyTk1veQk/KqeZWauD6yMHTAIX14e9nbJPC/ku4HUR0ZUZC+KnKOOX1ZLpdpz2ZKoybq+zUbtANRxnBTEcC00lQk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5d23265760fb112306a89b45e6330343b015c701" Description="" Url=""><as:assemblyIdentity name="wincalendar.exe" version="1.0.0.2" publicKeyToken="c528316c3ad8606a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BEDANTA-PC\bedan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>p3LnoWq1EJh/Z6eiwV7r3pBUjDg=</DigestValue></Reference></SignedInfo><SignatureValue>tL+arbavMX5rBHdLGs2BoG0rGUkfAwT9GAHtSyU53SrXiKVOAutpiAphKnsFRlCbvw7bqg+UP4azAT4jnM3SNBRLn4oX7xAS+VAEc9ysgSfB/oyTN8rwq7lxOr0g0lBRw9MDYMUJzai458BnBvsJhyiWuy9jzPrOa91FXAD7/eA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xmAsowk18tBcgX77F1W264/Q9ZLYy7GGZKBeIbxADe7uP597T3yVegytKi0BcldQsPlP0HouCOiYWHPpCcddyTk1veQk/KqeZWauD6yMHTAIX14e9nbJPC/ku4HUR0ZUZC+KnKOOX1ZLpdpz2ZKoybq+zUbtANRxnBTEcC00lQk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQH9i5sU1NdYtNC/0AiZy+5jANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQgBFAEQAQQBOAFQAQQAtAFAAQwBcAGIAZQBkAGEAbjAeFw0yMTA3MjYxNDM0MDhaFw0yMjA3MjYyMDM0MDhaMCsxKTAnBgNVBAMeIABCAEUARABBAE4AVABBAC0AUABDAFwAYgBlAGQAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGYCyjCTXy0FyBfvsXVbbrj9D1ktjLsYZkoF4hvEAN7u4/n3tPfJV6DK0qLQFyV1Cw+U/Qei4I6JhYc+kJx13JOTW95CT8qp5lZq4PrIwdMAhfXh72dsk8L+S7gdRHRlRkL4qco45fVkul2nPZkqjJur7NRu0A1HGcFMRwLTSVCQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBALtwjf6M0omDqs+PnNO/s6bIA+h09JHbIyWsp2KJHvk1hH7Z7TOJF15q6fLI4MyB9i5nSvlOeObv0qrNrvlWuK1g+HAZD9C+S1gAm5xK3qYr9nhnol7NwuXUO8vRoG55p749N+dnTtu15UdTvmvV9tdsBClKrbYZAH1SWWsNmEhH</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
